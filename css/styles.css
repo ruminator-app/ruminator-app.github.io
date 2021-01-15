@@ -1323,6 +1323,26 @@ a:hover.back-to-top {
 	background-color: #6b6de6;
 }
 
+/* comingsoon.html */
+.comingsoon-body {
+	background-image: url("/images/comingsoon-background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #5c547d;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.comingsoon-container {
+	text-align: center;
+}
+
+.comingsoon-link {
+	text-decoration: none;
+}
 
 /*************************/
 /*     Media Queries     */
@@ -1586,6 +1606,7 @@ a:hover.back-to-top {
 		margin-top: 6rem;
 	}
 	/* end of download */
+}
 /* end of min-width 992px */
 
 
@@ -1758,25 +1779,6 @@ a:hover.back-to-top {
 		margin-right: 3rem;
 	}
 	/* end of download */
+}
 /* end of min-width 1200px */
 
-/* comingsoon.html */
-.comingsoon-body {
-	background-image: url("/images/comingsoon-background.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: #5c547d;
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-}
-
-.comingsoon-container {
-	text-align: center;
-}
-
-.comingsoon-link {
-	text-decoration: none;
-}
