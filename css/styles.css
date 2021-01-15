@@ -2258,7 +2258,7 @@ a:hover.back-to-top {
 /* end of min-width 1200px */
 
 /* comingsoon.html */
-#comingsoon {
+.comingsoon-body {
 	background-image: url("/images/comingsoon-background.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -2268,4 +2268,12 @@ a:hover.back-to-top {
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
+}
+
+.comingsoon-container {
+	text-align: center;
+}
+
+.comingsoon-link {
+	text-decoration: none;
 }
