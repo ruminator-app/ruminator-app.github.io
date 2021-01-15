@@ -997,6 +997,10 @@ input[type='checkbox'] {
 }
 /* end of video play button */
 
+.basic-4 .image-container{
+	text-align: center;
+}
+
 
 /*********************/
 /*     Details 1     */
