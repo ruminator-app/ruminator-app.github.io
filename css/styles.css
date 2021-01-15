@@ -693,12 +693,9 @@ input[type='checkbox'] {
 	background-color: #2e283b;
 }
 
-.header h1 {
-	margin-bottom: 1rem;
-}
-
-.header h1 #js-rotating {
+.header #js-rotating {
 	color: #a07527;
+	white-space: nowrap;
 }
 
 .header .p-large {
